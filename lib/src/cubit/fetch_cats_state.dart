@@ -32,3 +32,7 @@ final class FetchCatsError extends FetchCatsState {
   @override
   List<Object> get props => [message];
 }
+
+final class FetchCatsNoInternet extends FetchCatsState {
+  const FetchCatsNoInternet();
+}
